@@ -1,13 +1,7 @@
-import styled, { keyframes } from 'styled-components';
-import Circle from './Circle';
+import Router from './Router';
 
 function App() {
-  return (
-    <div>
-      <Circle borderColor='black' bgColor='teal' />
-      <Circle bgColor='tomato' borderColor='red' />
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
